@@ -135,3 +135,5 @@ public class BookAppointmentActivity extends AppCompatActivity {
             timePickerDialog = new TimePickerDialog(this, style, timeSetListener, hrs, mins, true);
         }
     }
+
+
