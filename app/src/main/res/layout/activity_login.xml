@@ -17,7 +17,11 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="166dp"
+=======
+                android:layout_height="207dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/top_background2" />
 
@@ -56,23 +60,37 @@
                 android:textSize="20sp" />
 
             <EditText
+<<<<<<< HEAD
                 android:id="@+id/editTextUserName"
+=======
+                android:id="@+id/editTextLoginUsername"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ems="10"
                 android:layout_marginEnd="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginStart="32dp"
+<<<<<<< HEAD
                 android:hint="enter your username"
+=======
+                android:hint="enter your email"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:textColorHint="#858585"
                 android:padding="10dp"
                 android:textSize="16sp"
                 android:inputType="textPersonName"
+<<<<<<< HEAD
                 android:background="@drawable/grey_bcakground"
                 android:drawableLeft="@drawable/ic_baseline_person_24"
                 />
             <EditText
                 android:id="@+id/editTextTextPassword"
+=======
+                android:background="@drawable/grey_bcakground" />
+            <EditText
+                android:id="@+id/editTextLoginPassword"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ems="10"
@@ -84,9 +102,13 @@
                 android:padding="10dp"
                 android:textSize="16sp"
                 android:inputType="textPassword"
+<<<<<<< HEAD
                 android:background="@drawable/grey_bcakground"
                 android:drawableLeft="@drawable/ic_baseline_security_24"
                 />
+=======
+                android:background="@drawable/grey_bcakground" />
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
             <Button
                 android:id="@+id/buttonLogin"
@@ -131,48 +153,81 @@
                 android:layout_marginEnd="32dp"
                 android:orientation="horizontal">
 
+<<<<<<< HEAD
                 <androidx.appcompat.widget.AppCompatButton
+=======
+                <Button
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                     android:id="@+id/button4"
                     style="@android:style/Widget.Button"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:layout_weight="0.5"
+<<<<<<< HEAD
                     android:background="@drawable/purple_top_buttons"
+=======
+                    android:background="@drawable/white_btn"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                     android:drawableStart="@drawable/google"
                     android:drawablePadding="10dp"
                     android:padding="10dp"
                     android:text="Google login"
+<<<<<<< HEAD
                     android:textColor="#3A3939"
                     android:textStyle="bold" />
 
                 <androidx.appcompat.widget.AppCompatButton
+=======
+                    android:textColor="#636363"
+                    android:textStyle="bold" />
+
+                <Button
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                     android:id="@+id/button3"
                     style="@android:style/Widget.Button"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_weight="0.5"
+<<<<<<< HEAD
                     android:background="@drawable/purple_top_buttons"
+=======
+                    android:background="@drawable/white_btn"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                     android:drawableStart="@drawable/facebook"
                     android:drawablePadding="10dp"
                     android:padding="10dp"
                     android:text="Facebook login"
+<<<<<<< HEAD
                     android:textColor="#3A3939"
+=======
+                    android:textColor="#636363"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                     android:textStyle="bold" />
             </LinearLayout>
 
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/buttonSignUp"
+=======
+                android:id="@+id/textViewNewUser"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
+<<<<<<< HEAD
                 android:layout_marginBottom="30dp"
                 android:text="Don't have an account? Signup"
                 android:textAlignment="center"
                 android:textColor="#17288A"
+=======
+                android:text="Don't have an account? Signup"
+                android:textAlignment="center"
+                android:textColor="#04336a"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>

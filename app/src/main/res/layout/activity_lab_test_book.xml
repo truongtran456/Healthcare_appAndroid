@@ -5,7 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
 
+=======
+    android:background="@drawable/back3"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
     tools:context=".LabTestBookActivity">
 
     <ScrollView

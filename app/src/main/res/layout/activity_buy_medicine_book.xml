@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <ScrollView
+=======
+<androidx.constraintlayout.widget.ConstraintLayout
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -37,15 +41,29 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
 
+<<<<<<< HEAD
                     android:text="Book Medicine"
                     android:textColor="#8102b7"
                     android:layout_marginBottom="20dp"
+=======
+                    android:text="Book Appointment"
+                    android:textColor="#8102b7"
+                    android:layout_marginBottom="50dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                     android:textSize="48sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
+<<<<<<< HEAD
 
+=======
+            <TextView
+                android:id="@+id/textViewBMBPackageName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
             <TextView
                 android:id="@+id/textView5"
@@ -120,7 +138,11 @@
                 android:textSize="16sp" />
 
 
+<<<<<<< HEAD
             <androidx.appcompat.widget.AppCompatButton
+=======
+            <Button
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:id="@+id/buttonBMBBooking"
                 style="@android:style/Widget.Button"
                 android:layout_width="match_parent"
@@ -138,4 +160,8 @@
         </LinearLayout>
     </ScrollView>
 
+<<<<<<< HEAD
 </ScrollView>
+=======
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614

@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">HealThcare</string>
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="close_nav">Close Navigation Drawer</string>
@@ -19,4 +20,7 @@
     <string name="welcome">Welcome</string>
     <string name="change_profile">Change Profile</string>
     <string name="failed">Failed</string>
+=======
+    <string name="app_name">Healthcare</string>
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".FindDoctorActivity"
     android:background="#e8e8f9">
 
@@ -73,22 +74,126 @@
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="43dp">
+=======
+    android:background="#e8e8f9"
+    tools:context=".FindDoctorActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-32dp">
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+<<<<<<< HEAD
+=======
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="405dp"
+                    android:layout_height="127dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:srcCompat="@drawable/top_background" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="411dp"
+                    android:layout_height="149dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/top_background4" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="103dp"
+                    android:layout_height="90dp"
+                    android:layout_marginEnd="28dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="@+id/imageView2"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/profile" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:text="HealThcare"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="TOP DOCTORS"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                    app:layout_constraintStart_toStartOf="@+id/textView2"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2"
+                    app:layout_constraintVertical_bias="0.562" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/background_edittext_search"
+                android:drawableEnd="@drawable/search_icon"
+                android:ems="10"
+                android:hint="Search for..."
+                android:inputType="textPersonName"
+                android:paddingStart="8dp"
+                android:paddingEnd="4dp"
+                android:textColor="#8D8D8D"
+                android:textSize="16dp"
+                android:textStyle="bold|italic" />
+
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
             <LinearLayout
                 android:layout_width="346dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="30dp"
+<<<<<<< HEAD
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="160dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginRight="10dp"
                 android:orientation="vertical">
+=======
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -126,10 +231,17 @@
 
                         <TextView
                             android:id="@+id/textView7"
+<<<<<<< HEAD
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Family Physicians"
+=======
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Lab Test"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textSize="14dp"
@@ -140,10 +252,17 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
                         android:layout_marginLeft="20dp"
                         android:layout_weight="0"
                         android:orientation="vertical"
                         tools:layout_margin="10dp">
+=======
+                        android:layout_weight="0"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp"
+                        android:layout_marginLeft="20dp">
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardFDDietician"
@@ -170,10 +289,17 @@
 
                         <TextView
                             android:id="@+id/textView7"
+<<<<<<< HEAD
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Dietitian"
+=======
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Medicine"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textSize="14dp"
@@ -205,7 +331,11 @@
                             <ImageView
 
                                 android:layout_width="115dp"
+<<<<<<< HEAD
                                 android:layout_height="99dp"
+=======
+                                android:layout_height="91dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
@@ -221,10 +351,17 @@
 
                         <TextView
                             android:id="@+id/textView7"
+<<<<<<< HEAD
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Dentist"
+=======
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Calendar"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textSize="14dp"
@@ -235,11 +372,18 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="156dp"
+<<<<<<< HEAD
                         android:layout_marginLeft="20dp"
                         android:layout_weight="1"
                         android:orientation="vertical"
                         tools:layout_margin="10dp"
                         tools:ignore="DuplicateIds">
+=======
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp"
+                        android:layout_marginLeft="20dp">
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardFDSurgenon"
@@ -248,8 +392,14 @@
                             android:background="@drawable/white_top_buttons">
 
                             <ImageView
+<<<<<<< HEAD
                                 android:layout_width="127dp"
                                 android:layout_height="97dp"
+=======
+
+                                android:layout_width="127dp"
+                                android:layout_height="110dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
@@ -265,10 +415,17 @@
 
                         <TextView
                             android:id="@+id/textView7"
+<<<<<<< HEAD
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Surgeon"
+=======
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Order"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textSize="14dp"
@@ -285,7 +442,11 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
+<<<<<<< HEAD
                         android:layout_height="156dp"
+=======
+                        android:layout_height="138dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                         android:layout_weight="0"
                         android:orientation="vertical"
                         tools:layout_margin="10dp">
@@ -293,6 +454,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardFDCarddiologists"
                             android:layout_width="wrap_content"
+<<<<<<< HEAD
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:background="@drawable/white_top_buttons">
@@ -301,6 +463,17 @@
 
                                 android:layout_width="115dp"
                                 android:layout_height="99dp"
+=======
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_top_buttons"
+                            tools:ignore="DuplicateIds">
+
+                            <ImageView
+
+                                android:layout_width="112dp"
+                                android:layout_height="91dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
@@ -316,10 +489,17 @@
 
                         <TextView
                             android:id="@+id/textView7"
+<<<<<<< HEAD
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Cardiologist"
+=======
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Calendar"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textSize="14dp"
@@ -329,22 +509,39 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
+<<<<<<< HEAD
                         android:layout_height="156dp"
                         android:layout_marginLeft="20dp"
                         android:layout_weight="1"
+=======
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                         android:orientation="vertical"
                         tools:layout_margin="10dp">
 
                         <androidx.cardview.widget.CardView
+<<<<<<< HEAD
                             android:id="@+id/cardFDSurgenon"
                             android:layout_width="wrap_content"
                             android:layout_height="126dp"
+=======
+                            android:id="@+id/cardFDBack"
+                            android:layout_width="158dp"
+                            android:layout_height="wrap_content"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                             android:background="@drawable/white_top_buttons"
                             tools:ignore="DuplicateIds">
 
                             <ImageView
+<<<<<<< HEAD
                                 android:layout_width="127dp"
                                 android:layout_height="97dp"
+=======
+
+                                android:layout_width="125dp"
+                                android:layout_height="80dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
@@ -354,16 +551,27 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
                                 app:srcCompat="@drawable/tamli"
+=======
+                                app:srcCompat="@drawable/info"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                                 tools:ignore="DuplicateIds" />
                         </androidx.cardview.widget.CardView>
 
                         <TextView
                             android:id="@+id/textView7"
+<<<<<<< HEAD
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Pysycho"
+=======
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Back"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textSize="14dp"
@@ -372,11 +580,17 @@
                     </LinearLayout>
 
                 </LinearLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
             </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 </androidx.constraintlayout.widget.ConstraintLayout>

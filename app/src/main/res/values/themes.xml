@@ -1,9 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Theme.DACS3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#218EBF</item>
         <item name="colorPrimaryVariant">#218EBF</item>
+=======
+    <style name="Theme.Healthcare" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -13,6 +20,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+<<<<<<< HEAD
     
     <style name="DialogAnimation">
         <item name="android:windowEnterAnimation">@anim/slide_in</item>
@@ -24,4 +32,6 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
+=======
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 </resources>

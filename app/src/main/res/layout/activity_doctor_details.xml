@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/background"
     tools:context=".DoctorDetailsActivity">
 
@@ -97,18 +98,49 @@
 
 
 
+=======
+    android:background="#e8e8f9"
+    tools:context=".DoctorDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+<<<<<<< HEAD
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
+=======
+
+            <TextView
+                android:id="@+id/textViewDDTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:text="Find our Specialist"
+                android:textAlignment="center"
+                android:textColor="#26273a"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="@drawable/purple_top_buttons"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 android:orientation="horizontal">
 
                 <TextView
@@ -118,7 +150,11 @@
                     android:layout_weight="1"
                     android:text="Top Doctors"
                     android:textColor="#26273a"
+<<<<<<< HEAD
                     android:textSize="20sp"
+=======
+                    android:textSize="24sp"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                     android:textStyle="bold" />
 
                 <TextView
@@ -132,6 +168,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+<<<<<<< HEAD
 
             <ListView
                 android:id="@+id/listViewDD"
@@ -139,6 +176,34 @@
                 android:layout_height="800dp">
 
             </ListView>
+=======
+            <ListView
+                android:id="@+id/listViewDD"
+                android:layout_width="fill_parent"
+                android:layout_height="500dp"
+                android:dividerHeight="10dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="11dp">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/buttonDDBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="30dp"
+                android:text="Back" />
+
+
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
         </LinearLayout>
     </ScrollView>
 

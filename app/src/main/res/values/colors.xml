@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+<<<<<<< HEAD
         <color name="primary">#6A7CFF</color>
         <color name="background">#F7F7FA</color>
         <color name="card_background">#FFFFFF</color>
@@ -18,3 +19,14 @@
         <color name="dashboard_item_3">#72A4FF</color>
         <color name="dashboard_item_4">#8B72FF</color>
 </resources>
+=======
+    <color name="colorPrimaryDark">#3262C4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorRed">#C11515</color>
+    <color name="purpleDark">#FF210642</color>
+    <color name="yellowLight">#FFF777</color>
+</resources>
+
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614

@@ -10,9 +10,15 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+<<<<<<< HEAD
         maven {url'https://jitpack.io'}
 
     }
 }
 rootProject.name = "DACS3"
+=======
+    }
+}
+rootProject.name = "Healthcare"
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 include ':app'

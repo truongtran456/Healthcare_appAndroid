@@ -16,6 +16,7 @@
             android:orientation="vertical">
 
 
+<<<<<<< HEAD
             <!--            <TextView-->
             <!--                android:id="@+id/textViewHADTitle"-->
             <!--                android:layout_width="match_parent"-->
@@ -26,13 +27,29 @@
             <!--                android:textColor="#26273a"-->
             <!--                android:textSize="28sp"-->
             <!--                android:textStyle="bold"/>-->
+=======
+            <TextView
+                android:id="@+id/textViewHADTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:text="Find our Specialist"
+                android:textAlignment="center"
+                android:textColor="#26273a"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="@drawable/purple_top_buttons"/>
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
 
 
             <ImageView
                 android:id="@+id/imageViewHAD"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:scaleType="fitCenter"
+=======
+>>>>>>> 56e7140c8edecb3b2568351fb1150f90965e3614
                 app:srcCompat="@drawable/health1" />
 
             <Button
