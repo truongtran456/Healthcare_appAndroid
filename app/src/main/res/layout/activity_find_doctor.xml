@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindDoctorActivity"
+    android:background="#e8e8f9">
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="412dp"
+        android:layout_height="148dp"
+        android:background="@drawable/headerbkg"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="106dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/backDT"
+                android:layout_width="50dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/baseline_keyboard_backspace_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/doctorName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="193dp"
+                android:layout_marginBottom="56dp"
+                android:layout_toEndOf="@+id/backDT"
+                android:text="Welcome"
+                android:textColor="#ffffff"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="53dp"
+                android:layout_marginLeft="53dp"
+                android:layout_marginBottom="21dp"
+                android:text="How we can help you today?"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/cardMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="43dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardFDFamilyPhysician"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/white_top_buttons">
+
+                            <ImageView
+                                android:layout_width="117dp"
+                                android:layout_height="107dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:background="@drawable/white_top_buttons"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/family_physicians"
+                                tools:ignore="DuplicateIds" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Family Physicians"
+                            android:textAlignment="center"
+                            android:textColor="#2e3d6d"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            tools:ignore="DuplicateIds,TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardFDDietician"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/white_top_buttons">
+
+                            <ImageView
+
+                                android:layout_width="127dp"
+                                android:layout_height="107dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:background="@drawable/white_top_buttons"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/dietician"
+                                tools:ignore="DuplicateIds" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Dietitian"
+                            android:textAlignment="center"
+                            android:textColor="#2e3d6d"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            tools:ignore="DuplicateIds,TextSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="156dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardFDDentist"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_top_buttons">
+
+                            <ImageView
+
+                                android:layout_width="115dp"
+                                android:layout_height="99dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:background="@drawable/white_top_buttons"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/dentist"
+                                tools:ignore="DuplicateIds" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Dentist"
+                            android:textAlignment="center"
+                            android:textColor="#2e3d6d"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            tools:ignore="DuplicateIds,TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="156dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp"
+                        tools:ignore="DuplicateIds">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardFDSurgenon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="126dp"
+                            android:background="@drawable/white_top_buttons">
+
+                            <ImageView
+                                android:layout_width="127dp"
+                                android:layout_height="97dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:background="@drawable/white_top_buttons"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/surgeon"
+                                tools:ignore="DuplicateIds" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Surgeon"
+                            android:textAlignment="center"
+                            android:textColor="#2e3d6d"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            tools:ignore="DuplicateIds,TextSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="156dp"
+                        android:layout_weight="0"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardFDCarddiologists"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_top_buttons">
+
+                            <ImageView
+
+                                android:layout_width="115dp"
+                                android:layout_height="99dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:background="@drawable/white_top_buttons"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/cardiologists"
+                                tools:ignore="DuplicateIds" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Cardiologist"
+                            android:textAlignment="center"
+                            android:textColor="#2e3d6d"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            tools:ignore="DuplicateIds,TextSizeCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="156dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        tools:layout_margin="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardFDSurgenon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="126dp"
+                            android:background="@drawable/white_top_buttons"
+                            tools:ignore="DuplicateIds">
+
+                            <ImageView
+                                android:layout_width="127dp"
+                                android:layout_height="97dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:background="@drawable/white_top_buttons"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/tamli"
+                                tools:ignore="DuplicateIds" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Pysycho"
+                            android:textAlignment="center"
+                            android:textColor="#2e3d6d"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            tools:ignore="DuplicateIds,TextSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
